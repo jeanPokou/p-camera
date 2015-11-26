@@ -18,30 +18,26 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   </head>
   <body unresolved>
 
-    <p>An example of <code>&lt;p-camera&gt;</code>:</p>
-
-    <p>Make words! <button id="saybtn">Say Something</button></p>
-    <p>Make lasers! <button id="laserbtn">Fire lasers</button></p>
-
+    
     <p-camera author='{"name": "Lord Meowser", "image": "http://placekitten.com/g/200/300"}' fancy>
       <h2>Hello p-camera</h2>
     </p-camera>
 
     <script>
       var seedElement = document.querySelector('p-camera');
-      
+
       document.querySelector('#saybtn').addEventListener('click', function() {
         alert(seedElement.sayHello('Hallo!'));
       });
-      
+
       document.querySelector('#laserbtn').addEventListener('click', function() {
         seedElement.fireLasers();
       });
-      
+
       document.addEventListener("p-camera-lasers", function(e) {
         console.log(e.detail.sound);
       });
-      
+
     </script>
 
   </body>

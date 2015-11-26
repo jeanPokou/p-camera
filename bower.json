@@ -2,13 +2,14 @@
   "name": "p-camera",
   "version": "1.0.3",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "jeanpokou"
   ],
-  "description": "An element providing a solution to no problem in particular.",
+  "description": "An element  for capturing picture and video using Camera API.",
   "keywords": [
     "web-component",
     "polymer",
-    "seed"
+    "Camera",
+    "Picture"
   ],
   "main": "p-camera.html",
   "license": "http://polymer.github.io/LICENSE.txt",
